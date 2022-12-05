@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-messaging-app/static/css/main.4ed9ef82.css",
+    "main.js": "/my-messaging-app/static/js/main.bed43b5a.js",
+    "static/js/787.24fe3157.chunk.js": "/my-messaging-app/static/js/787.24fe3157.chunk.js",
+    "index.html": "/my-messaging-app/index.html",
+    "main.4ed9ef82.css.map": "/my-messaging-app/static/css/main.4ed9ef82.css.map",
+    "main.bed43b5a.js.map": "/my-messaging-app/static/js/main.bed43b5a.js.map",
+    "787.24fe3157.chunk.js.map": "/my-messaging-app/static/js/787.24fe3157.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ed9ef82.css",
+    "static/js/main.bed43b5a.js"
+  ]
+}
