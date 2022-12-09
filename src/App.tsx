@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 interface Message {
@@ -10,6 +10,18 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [activeUser, setActiveUser] = useState<string>("user1");
   const [textareaValue, setTextareaValue] = useState<string>("");
+
+  useEffect(() => {
+    const handler = () => {
+      // We execute the same script as before
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    };
+    window.addEventListener("resize", handler);
+    return () => {
+      window.removeEventListener("resize", handler);
+    };
+  }, []);
 
   return (
     <div className="root">
